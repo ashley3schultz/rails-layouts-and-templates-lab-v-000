@@ -5,7 +5,7 @@ class StoreAdminController < ApplicationController
   end
 
   def orders
-    #render :layout => "order"
+    render :layout => "order"
   end
 
   def invoice
